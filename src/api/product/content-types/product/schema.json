@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "ProductInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-component.product-info"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-component.image"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_component_page_infos",
+  "info": {
+    "displayName": "PageInfo",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

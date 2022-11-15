@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_product_component_product_infos",
+  "info": {
+    "displayName": "ProductInfo",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "integer"
+    }
+  }
+}
